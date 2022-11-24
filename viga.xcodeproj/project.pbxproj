@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CC033BC292F2FCF003A5196 /* vigaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033BB292F2FCF003A5196 /* vigaApp.swift */; };
+		2CC033BE292F2FCF003A5196 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033BD292F2FCF003A5196 /* Persistence.swift */; };
+		2CC033C1292F2FCF003A5196 /* viga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033BF292F2FCF003A5196 /* viga.xcdatamodeld */; };
+		2CC033C3292F2FCF003A5196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033C2292F2FCF003A5196 /* ContentView.swift */; };
+		2CC033C5292F2FD0003A5196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC033C4292F2FD0003A5196 /* Assets.xcassets */; };
+		2CC033C9292F2FD0003A5196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC033C8292F2FD0003A5196 /* Preview Assets.xcassets */; };
+		2CC033D3292F2FD0003A5196 /* vigaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033D2292F2FD0003A5196 /* vigaTests.swift */; };
+		2CC033DD292F2FD0003A5196 /* vigaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033DC292F2FD0003A5196 /* vigaUITests.swift */; };
+		2CC033DF292F2FD0003A5196 /* vigaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033DE292F2FD0003A5196 /* vigaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CC033CF292F2FD0003A5196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC033B0292F2FCF003A5196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC033B7292F2FCF003A5196;
+			remoteInfo = viga;
+		};
+		2CC033D9292F2FD0003A5196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC033B0292F2FCF003A5196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC033B7292F2FCF003A5196;
+			remoteInfo = viga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CC033B8292F2FCF003A5196 /* viga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC033BB292F2FCF003A5196 /* vigaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vigaApp.swift; sourceTree = "<group>"; };
+		2CC033BD292F2FCF003A5196 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2CC033C0292F2FCF003A5196 /* viga.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = viga.xcdatamodel; sourceTree = "<group>"; };
+		2CC033C2292F2FCF003A5196 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CC033C4292F2FD0003A5196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC033C6292F2FD0003A5196 /* viga.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = viga.entitlements; sourceTree = "<group>"; };
+		2CC033C8292F2FD0003A5196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CC033CE292F2FD0003A5196 /* vigaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vigaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC033D2292F2FD0003A5196 /* vigaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vigaTests.swift; sourceTree = "<group>"; };
+		2CC033D8292F2FD0003A5196 /* vigaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vigaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC033DC292F2FD0003A5196 /* vigaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vigaUITests.swift; sourceTree = "<group>"; };
+		2CC033DE292F2FD0003A5196 /* vigaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vigaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CC033B5292F2FCF003A5196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC033CB292F2FD0003A5196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC033D5292F2FD0003A5196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC033AF292F2FCF003A5196 = {
+			isa = PBXGroup;
+			children = (
+				2CC033BA292F2FCF003A5196 /* viga */,
+				2CC033D1292F2FD0003A5196 /* vigaTests */,
+				2CC033DB292F2FD0003A5196 /* vigaUITests */,
+				2CC033B9292F2FCF003A5196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC033B9292F2FCF003A5196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC033B8292F2FCF003A5196 /* viga.app */,
+				2CC033CE292F2FD0003A5196 /* vigaTests.xctest */,
+				2CC033D8292F2FD0003A5196 /* vigaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC033BA292F2FCF003A5196 /* viga */ = {
+			isa = PBXGroup;
+			children = (
+				2CC033BB292F2FCF003A5196 /* vigaApp.swift */,
+				2CC033BD292F2FCF003A5196 /* Persistence.swift */,
+				2CC033C2292F2FCF003A5196 /* ContentView.swift */,
+				2CC033C4292F2FD0003A5196 /* Assets.xcassets */,
+				2CC033C6292F2FD0003A5196 /* viga.entitlements */,
+				2CC033BF292F2FCF003A5196 /* viga.xcdatamodeld */,
+				2CC033C7292F2FD0003A5196 /* Preview Content */,
+			);
+			path = viga;
+			sourceTree = "<group>";
+		};
+		2CC033C7292F2FD0003A5196 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CC033C8292F2FD0003A5196 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CC033D1292F2FD0003A5196 /* vigaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC033D2292F2FD0003A5196 /* vigaTests.swift */,
+			);
+			path = vigaTests;
+			sourceTree = "<group>";
+		};
+		2CC033DB292F2FD0003A5196 /* vigaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC033DC292F2FD0003A5196 /* vigaUITests.swift */,
+				2CC033DE292F2FD0003A5196 /* vigaUITestsLaunchTests.swift */,
+			);
+			path = vigaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CC033B7292F2FCF003A5196 /* viga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC033E2292F2FD0003A5196 /* Build configuration list for PBXNativeTarget "viga" */;
+			buildPhases = (
+				2CC033B4292F2FCF003A5196 /* Sources */,
+				2CC033B5292F2FCF003A5196 /* Frameworks */,
+				2CC033B6292F2FCF003A5196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viga;
+			productName = viga;
+			productReference = 2CC033B8292F2FCF003A5196 /* viga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CC033CD292F2FD0003A5196 /* vigaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC033E5292F2FD0003A5196 /* Build configuration list for PBXNativeTarget "vigaTests" */;
+			buildPhases = (
+				2CC033CA292F2FD0003A5196 /* Sources */,
+				2CC033CB292F2FD0003A5196 /* Frameworks */,
+				2CC033CC292F2FD0003A5196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC033D0292F2FD0003A5196 /* PBXTargetDependency */,
+			);
+			name = vigaTests;
+			productName = vigaTests;
+			productReference = 2CC033CE292F2FD0003A5196 /* vigaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CC033D7292F2FD0003A5196 /* vigaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC033E8292F2FD0003A5196 /* Build configuration list for PBXNativeTarget "vigaUITests" */;
+			buildPhases = (
+				2CC033D4292F2FD0003A5196 /* Sources */,
+				2CC033D5292F2FD0003A5196 /* Frameworks */,
+				2CC033D6292F2FD0003A5196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC033DA292F2FD0003A5196 /* PBXTargetDependency */,
+			);
+			name = vigaUITests;
+			productName = vigaUITests;
+			productReference = 2CC033D8292F2FD0003A5196 /* vigaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC033B0292F2FCF003A5196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2CC033B7292F2FCF003A5196 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2CC033CD292F2FD0003A5196 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2CC033B7292F2FCF003A5196;
+					};
+					2CC033D7292F2FD0003A5196 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2CC033B7292F2FCF003A5196;
+					};
+				};
+			};
+			buildConfigurationList = 2CC033B3292F2FCF003A5196 /* Build configuration list for PBXProject "viga" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CC033AF292F2FCF003A5196;
+			productRefGroup = 2CC033B9292F2FCF003A5196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC033B7292F2FCF003A5196 /* viga */,
+				2CC033CD292F2FD0003A5196 /* vigaTests */,
+				2CC033D7292F2FD0003A5196 /* vigaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC033B6292F2FCF003A5196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC033C9292F2FD0003A5196 /* Preview Assets.xcassets in Resources */,
+				2CC033C5292F2FD0003A5196 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC033CC292F2FD0003A5196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC033D6292F2FD0003A5196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC033B4292F2FCF003A5196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC033BC292F2FCF003A5196 /* vigaApp.swift in Sources */,
+				2CC033C1292F2FCF003A5196 /* viga.xcdatamodeld in Sources */,
+				2CC033C3292F2FCF003A5196 /* ContentView.swift in Sources */,
+				2CC033BE292F2FCF003A5196 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC033CA292F2FD0003A5196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC033D3292F2FD0003A5196 /* vigaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC033D4292F2FD0003A5196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC033DD292F2FD0003A5196 /* vigaUITests.swift in Sources */,
+				2CC033DF292F2FD0003A5196 /* vigaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CC033D0292F2FD0003A5196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC033B7292F2FCF003A5196 /* viga */;
+			targetProxy = 2CC033CF292F2FD0003A5196 /* PBXContainerItemProxy */;
+		};
+		2CC033DA292F2FD0003A5196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC033B7292F2FCF003A5196 /* viga */;
+			targetProxy = 2CC033D9292F2FD0003A5196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CC033E0292F2FD0003A5196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CC033E1292F2FD0003A5196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2CC033E3292F2FD0003A5196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = viga/viga.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"viga/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itc.viga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CC033E4292F2FD0003A5196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = viga/viga.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"viga/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itc.viga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CC033E6292F2FD0003A5196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itc.vigaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/viga";
+			};
+			name = Debug;
+		};
+		2CC033E7292F2FD0003A5196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itc.vigaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/viga";
+			};
+			name = Release;
+		};
+		2CC033E9292F2FD0003A5196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itc.vigaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viga;
+			};
+			name = Debug;
+		};
+		2CC033EA292F2FD0003A5196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itc.vigaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CC033B3292F2FCF003A5196 /* Build configuration list for PBXProject "viga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC033E0292F2FD0003A5196 /* Debug */,
+				2CC033E1292F2FD0003A5196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC033E2292F2FD0003A5196 /* Build configuration list for PBXNativeTarget "viga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC033E3292F2FD0003A5196 /* Debug */,
+				2CC033E4292F2FD0003A5196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC033E5292F2FD0003A5196 /* Build configuration list for PBXNativeTarget "vigaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC033E6292F2FD0003A5196 /* Debug */,
+				2CC033E7292F2FD0003A5196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC033E8292F2FD0003A5196 /* Build configuration list for PBXNativeTarget "vigaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC033E9292F2FD0003A5196 /* Debug */,
+				2CC033EA292F2FD0003A5196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CC033BF292F2FCF003A5196 /* viga.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CC033C0292F2FCF003A5196 /* viga.xcdatamodel */,
+			);
+			currentVersion = 2CC033C0292F2FCF003A5196 /* viga.xcdatamodel */;
+			path = viga.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CC033B0292F2FCF003A5196 /* Project object */;
+}
