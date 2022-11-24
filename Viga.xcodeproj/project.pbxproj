@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2CC033BC292F2FCF003A5196 /* vigaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033BB292F2FCF003A5196 /* vigaApp.swift */; };
-		2CC033BE292F2FCF003A5196 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033BD292F2FCF003A5196 /* Persistence.swift */; };
-		2CC033C1292F2FCF003A5196 /* viga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033BF292F2FCF003A5196 /* viga.xcdatamodeld */; };
 		2CC033C3292F2FCF003A5196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033C2292F2FCF003A5196 /* ContentView.swift */; };
 		2CC033C5292F2FD0003A5196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC033C4292F2FD0003A5196 /* Assets.xcassets */; };
 		2CC033C9292F2FD0003A5196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC033C8292F2FD0003A5196 /* Preview Assets.xcassets */; };
 		2CC033D3292F2FD0003A5196 /* vigaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033D2292F2FD0003A5196 /* vigaTests.swift */; };
 		2CC033DD292F2FD0003A5196 /* vigaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033DC292F2FD0003A5196 /* vigaUITests.swift */; };
 		2CC033DF292F2FD0003A5196 /* vigaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033DE292F2FD0003A5196 /* vigaUITestsLaunchTests.swift */; };
+		2CC033EC292F3094003A5196 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033EB292F3094003A5196 /* CoreDataManager.swift */; };
+		2CC033EF292F334D003A5196 /* Viga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CC033ED292F334D003A5196 /* Viga.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 /* Begin PBXFileReference section */
 		2CC033B8292F2FCF003A5196 /* viga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC033BB292F2FCF003A5196 /* vigaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vigaApp.swift; sourceTree = "<group>"; };
-		2CC033BD292F2FCF003A5196 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		2CC033C0292F2FCF003A5196 /* viga.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = viga.xcdatamodel; sourceTree = "<group>"; };
 		2CC033C2292F2FCF003A5196 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CC033C4292F2FD0003A5196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC033C6292F2FD0003A5196 /* viga.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = viga.entitlements; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		2CC033D8292F2FD0003A5196 /* vigaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vigaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC033DC292F2FD0003A5196 /* vigaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vigaUITests.swift; sourceTree = "<group>"; };
 		2CC033DE292F2FD0003A5196 /* vigaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vigaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CC033EB292F3094003A5196 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2CC033EE292F334D003A5196 /* Viga.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Viga.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +99,11 @@
 		2CC033BA292F2FCF003A5196 /* viga */ = {
 			isa = PBXGroup;
 			children = (
+				2CC033EB292F3094003A5196 /* CoreDataManager.swift */,
 				2CC033BB292F2FCF003A5196 /* vigaApp.swift */,
-				2CC033BD292F2FCF003A5196 /* Persistence.swift */,
 				2CC033C2292F2FCF003A5196 /* ContentView.swift */,
 				2CC033C4292F2FD0003A5196 /* Assets.xcassets */,
 				2CC033C6292F2FD0003A5196 /* viga.entitlements */,
-				2CC033BF292F2FCF003A5196 /* viga.xcdatamodeld */,
 				2CC033C7292F2FD0003A5196 /* Preview Content */,
 			);
 			path = viga;
@@ -113,6 +112,7 @@
 		2CC033C7292F2FD0003A5196 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2CC033ED292F334D003A5196 /* Viga.xcdatamodeld */,
 				2CC033C8292F2FD0003A5196 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -266,9 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC033BC292F2FCF003A5196 /* vigaApp.swift in Sources */,
-				2CC033C1292F2FCF003A5196 /* viga.xcdatamodeld in Sources */,
 				2CC033C3292F2FCF003A5196 /* ContentView.swift in Sources */,
-				2CC033BE292F2FCF003A5196 /* Persistence.swift in Sources */,
+				2CC033EC292F3094003A5196 /* CoreDataManager.swift in Sources */,
+				2CC033EF292F334D003A5196 /* Viga.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,13 +614,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2CC033BF292F2FCF003A5196 /* viga.xcdatamodeld */ = {
+		2CC033ED292F334D003A5196 /* Viga.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2CC033C0292F2FCF003A5196 /* viga.xcdatamodel */,
+				2CC033EE292F334D003A5196 /* Viga.xcdatamodel */,
 			);
-			currentVersion = 2CC033C0292F2FCF003A5196 /* viga.xcdatamodel */;
-			path = viga.xcdatamodeld;
+			currentVersion = 2CC033EE292F334D003A5196 /* Viga.xcdatamodel */;
+			path = Viga.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
